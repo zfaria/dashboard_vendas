@@ -1,6 +1,6 @@
 # dashboard_vendas
 
-Neste curso, eu configurei meu ambiente para usar a biblioteca Extreme Learning no meu computador. Aprendi a executar meu aplicativo localmente e online, e adicionei elementos a ele, sempre consultando a documentação.
+Configurei meu ambiente para usar a biblioteca Extreme Learning no meu computador. Aprendi a executar meu aplicativo localmente e online, e adicionei elementos a ele, sempre consultando a documentação.
 
 Desenvolvi um dashboard que ajuda na análise dos dados de vendas. Usei elementos interativos para filtrar os dados nos gráficos. Além disso, criei uma página secundária para facilitar a filtragem dos dados brutos e realizar o download dessas informações.
 
