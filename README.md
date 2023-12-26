@@ -1,4 +1,4 @@
-# dashboard_vendas
+# DASHBOARD DE VENDAS 🛒
 
 Configurei meu ambiente para usar a biblioteca Extreme Learning no meu computador. Aprendi a executar meu aplicativo localmente e online, e adicionei elementos a ele, sempre consultando a documentação.
 
