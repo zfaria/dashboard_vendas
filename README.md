@@ -4,8 +4,17 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
 [![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://jose-dashboard-vendas.streamlit.app/)
 
 > Aplicação interativa desenvolvida com **Python + Streamlit** para análise exploratória de dados de vendas, com filtros dinâmicos e visualizações interativas.
+
+---
+
+## 🚀 Acesse o Dashboard Online
+
+O dashboard pode ser acessado diretamente no navegador:
+
+🔗 https://jose-dashboard-vendas.streamlit.app/
 
 ---
 
@@ -14,8 +23,6 @@
 ![Demo do Dashboard](assets/dashboard_demo.gif)
 
 Este GIF demonstra a navegação pelo dashboard, aplicação de filtros e visualização dinâmica dos dados.
-
----
 
 # ✨ Funcionalidades
 
@@ -96,40 +103,50 @@ git clone https://github.com/zfaria/dashboard_vendas.git
 cd dashboard_vendas
 
 2️⃣ Criar ambiente virtual (recomendado)
+
 Windows
+```
 python -m venv venv
 venv\Scripts\activate
+```
 
 Linux / Mac
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
 3️⃣ Instalar dependências
+```
 pip install -r requirements.txt
+```
 
 4️⃣ Executar o projeto
+```
 streamlit run Dashboard.py
+```
 
 Abra no navegador:
 
 http://localhost:8501
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
+```
 dashboard_vendas/
 │
 ├── assets/
-│   └── dashboard_demo.gif
+│ └── dashboard_demo.gif
 │
 ├── .streamlit/
-│   └── config.toml
+│ └── config.toml
 │
 ├── pages/
-│   └── Dados_brutos.py
+│ └── Dados_brutos.py
 │
 ├── Dashboard.py
 ├── requirements.txt
 └── README.md
-
+```
 📊 Sobre os Dados
 
 Os dados são consumidos através da API pública:
